@@ -18,5 +18,25 @@ del tupl1
 
 
 t1 = (1,2,3)
-t2 = ()
-t3 = ()
+t2 = (4,5,6)
+t3 = t1 + t2
+print(t3) # (1,2,3,4,5,6)
+
+#Create a Singleton Tuple:
+tup = (10,)
+print(tup, type(tup)) # (10,) <class 'tuple'>
+
+#if we want to declare a tuple with single element , that is a singleton tuple
+# you should give a comma after the the element
+# otherwise it will be considered as Integer , not as tuple
+
+
+
+
+new_tup = (10,20,30,40)
+#ele1 = new_tup[0]
+
+#Unpacking of tuple
+ele1,ele2,ele3,ele4 = new_tup
+print('Value of ele1',ele1)
+
