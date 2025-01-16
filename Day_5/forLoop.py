@@ -14,7 +14,7 @@ for num in range(1,11): #Range parameter: start,end
                         #By default it will increment value by 1
                         
 for num in range(5):    #If only one  parameter is specified, the range function  will treat it as end_value
-     print(num)         # that is, the start default value will be taken as 1             
+     print(num)         # that is, the start default value will be taken as 0             
 
 for num in range(11,21,2): #Range parameter: start,end,increment _value
     print(num,end=" ")
@@ -52,7 +52,7 @@ for i in range(1,11):
 
 # pass is used to skip implementation
 # we cant leave method or class or control construct empty
-# or we place pass there 
+# or we place pass there , we dont want to give their implementation
 
 def func():
     pass
